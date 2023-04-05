@@ -1,0 +1,1045 @@
+@media (min-width: 360px){
+   nav{
+        padding: 0;
+        text-align: start;
+        margin-left: 3%;
+        gap: 10px;
+        font-size: .8em;
+    }
+    .section-header{
+        height: 65vh;
+        background-position: center;
+        background-size: 95%;
+        font-size: .5em;
+    }
+    .header{
+        width: 50%;
+    }
+    .header-header{
+        width: 100%;
+    }
+    .header-header #btn-header{
+        width: 70%;
+    }
+
+               /*  section um*/
+
+    /*    primeira seção*/
+    .sobreMim{
+        background-color: var(--colorFour);
+        height: 130vh;
+     }
+   
+     .textAndPic{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+       
+     }
+     .textAndPic img{
+         width: 70%;
+         opacity: .3;
+
+     }
+     .textMe{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         font-size: 1.1em;
+         width: 90%;
+         gap: 50px;
+         text-align: center;
+         color: white;
+         
+ 
+     }
+     #textColor{
+         color: var(--colorFive);
+     }
+     
+     
+ 
+ 
+             /* segunda seção */
+ 
+.trabalho{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--colorTwo);
+    align-items: center;
+    justify-content: center;
+
+}
+.trabalho h2{
+   margin: 0;
+   padding: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   padding: 50px 5px;
+}
+ .article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 40px;
+ }
+
+  article{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 40px;
+
+  }
+  article div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: var(--colorFive);
+    width:90%;
+    height: 100%;
+
+  }
+
+  .article img{
+    border: 5px solid var(--colorFour);
+    border-radius: 50%;
+  }
+
+  .article-text{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    color: white;
+    text-align: start;
+    width: 90%;
+    font-size: 1.2em;
+    text-align: center;
+
+  }
+  
+  .presentsIndice{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                width: 100%;
+                gap: 5px;
+                
+                
+  }
+ .indice{
+                background-color: var(--colorFive);
+                width: 90%;
+                text-align: center;
+                height: 25vh;
+                margin-bottom: 10%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 1.3em;
+            
+  }
+  .indice:hover{
+                -webkit-box-shadow: 1px 0px 37px -12px rgba(217,30,65,1);
+                -moz-box-shadow: 1px 0px 37px -12px rgba(217,30,65,1);
+                box-shadow: 1px 0px 37px -12px rgba(217,30,65,1);
+                opacity: .8;
+  }
+ .primeiro, .segundo, .terceiro{
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 45%;
+                break-before: always;
+                opacity: .5;
+  }
+  .primeiro{
+                background-image: url('../imagens/haltere..png');
+            
+  }
+  .segundo{
+                background-image: url('../imagens/AC.png');
+               
+  }
+ .terceiro{
+                background-image: url('../imagens/pngwing.com\ \(1\).png');
+               
+ }
+
+               
+ 
+                /* terceira seção */
+ 
+     .diplomas{
+         height: 170vh;
+         background-color: var(--colorOne);
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         gap: 70px;
+         text-align: center;
+         padding: 40px 0 40px 0;
+     }
+     .certificadiploma{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         gap: 20px;
+         color: var(--colorFour);
+         width: 90%;
+ 
+     }
+    
+     .diplomas h2{
+         color: white;
+         margin-top: -7%;
+     }
+     .titulo-certif{
+         width: 100%;
+     }
+     #diploma{
+         color: var(--colorThree);
+         font-size: 1.2em;
+     }
+     .texto-certifi{
+         display: flex;
+         flex-direction: column;
+         width: 90%;
+         font-weight: bold;
+         gap: 20px;
+     }
+     .texto-certifi p{
+         color: white;
+     }
+     #certificacao{
+         color: var(--colorFive);
+         font-size: 1.2em;
+ 
+     }
+     .diplomas img{
+         width: 85%;
+     }
+ 
+ 
+           /* ultima seção */
+     .contato{
+         width: 100%;
+         height: 90vh;
+         background-color: var(--colorTwo);
+         color: white;
+         display: flex;
+         flex-direction: column;
+         gap: 20px;
+         align-items: center;
+         justify-content: center;
+         text-align: center;
+         padding: 20px 0px;
+     }
+     .dados{
+         display: flex;
+         flex-direction: column;
+         gap: 20px;
+         font-size: 1.5em;
+         width: 95%;
+     }
+     #profissao{
+         color: var(--colorOne);
+         margin-top: 2%;
+         font-weight: bolder;
+ 
+     }
+    #email{
+     margin-top: -3%;
+    }
+     form{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         width: 100%;
+         padding: 10px;
+         gap: 10px;
+         text-align: start;
+         margin-left: 25%;
+     }
+     
+     input{ 
+         width: 70%;
+         padding: 10px;
+         border: 1px solid var(--colorOne);
+         outline: none;
+         border-radius: 4px;
+     }
+     
+     textarea{
+         width: 75%;
+         margin-top: 2%;
+         outline: none;
+         border: 1px solid var(--colorOne);
+         border-radius: 4px;
+     }   
+     #contatoForm{
+         margin-top: 2%;
+         width: 75%;
+         padding: 15px;
+         cursor: pointer;
+         background: linear-gradient(90deg, rgba(32,18,64,1) 37%, rgba(72,16,58,1) 59%, rgba(91,15,55,1) 71%, rgba(140,13,47,1) 99%, rgba(75,74,117,1) 100%);
+         border: none;
+         border-radius: 4px;
+         color: white;
+         font-weight: bolder;
+     }
+     #contatoForm:hover{
+         -webkit-box-shadow: 1px 0px 37px -12px rgba(217,30,65,1);
+         -moz-box-shadow: 1px 0px 37px -12px rgba(217,30,65,1);
+         box-shadow: 1px 0px 37px -12px rgba(217,30,65,1);
+     }
+     footer{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         background-color: var(--colorTwo);
+         padding: 20px;
+         cursor: pointer;
+         color: var(--colorOne);
+         border-top: 1px solid var(--colorThree);
+         gap: 10px;
+     }
+     footer div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+     }
+   
+}
+
+/*                       */
+
+/*                       */
+
+
+@media (min-width: 370px){
+    nav{
+        padding: 0;
+        text-align: start;
+        margin-left: 3%;
+        gap: 10px;
+        font-size: .9em;
+    }
+    .section-header{
+        height: 65vh;
+        background-position: center;
+        background-size: 97%;
+        font-size: .5em;
+    }
+    .header{
+        width: 50%;
+    }
+    .header-header{
+        width: 100%;
+    }
+    .header-header #btn-header{
+        width: 70%;
+    }
+
+    .sobreMim{
+        height: 145vh;
+    }
+
+
+
+      /* ultima seção */
+    .diplomas{
+        height: 170vh;
+        background-color: var(--colorOne);
+    
+    }
+
+    .contato{
+          width: 100%;
+          height: 110vh;
+          background-color: var(--colorTwo);
+          color: white;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          align-items: center;
+          justify-content: center;
+     }
+}
+
+
+
+@media (min-width: 410px){
+  
+    .sobreMim{
+        height: 115vh;
+    }
+    .diplomas{
+        height: 130vh;
+    }
+    .contato{
+        height: 80vh;
+    }
+
+}
+
+
+
+
+@media (min-width: 688px){
+    
+    .section-header{
+        height: 80vh;
+        background-position: center;
+        background-size: 100%;
+        font-size: .8em;
+    }
+    .header{
+        width: 50%;
+    }
+    .header-header{
+        width: 100%;
+    }
+    .header-header #btn-header{
+        width: 70%;
+    }
+     
+             /* segunda seção */
+ 
+             .trabalho{
+                background-color: var(--colorTwo);
+                height: 40vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                gap: 20px;
+            
+                }
+            /* contato */  
+    .contato{
+         width: 100%;
+         height: 70vh;
+         background-color: var(--colorTwo);
+         color: white;
+         display: flex;
+         flex-direction: column;
+         gap: 20px;
+         align-items: center;
+         justify-content: center;
+     }
+    
+    #email{
+     margin-top: -5%;
+    }
+  
+     input{ 
+         width: 72%;
+         padding: 10px;
+         border: 1px solid var(--colorOne);
+         outline: none;
+         border-radius: 4px;
+     }
+     #email{
+         padding: 7px 0;
+       }
+}
+
+/*                          */
+
+
+@media (min-width: 1024px){
+    
+    
+    
+    .section-header{
+        background-color: var(--colorTwo);
+        height: 85vh;
+        width: 100%;
+        background-image: url('../imagens/2.png');
+        background-repeat: no-repeat;
+        background-position: absolute;
+        background-position-x: 85%;
+        background-position-y:100%;
+        overflow-y: none;
+        background-size: 35%; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+        .header{
+            width: 30%;
+        }
+        .header-header{
+            width: 100%;
+        }
+        .header-header #btn-header{
+            width: 48%;
+        }
+    
+        /*    primeira seção*/
+        .sobreMim{
+           background-color: var(--colorFour);
+        }
+      
+        .textAndPic{ 
+           display: flex;
+           flex-direction: row;
+           justify-content: space-around;
+           font-size: .8em;
+          
+        }
+        .textAndPic img{
+            width: 30%;
+            opacity: .3;
+        }
+        .textMe{
+            display: flex;
+            flex-direction: column;
+            font-size: 1.5em;
+            width: 30%;
+            gap: 50px;
+            text-align: end;
+            color: white;
+            margin-left: -20%;
+    
+        }
+        #textColor{
+            color: var(--colorThree);
+        }
+        
+        .presentsIndice{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            width: 100%;
+            gap: 80px;
+            
+        }
+        .indice{
+            background-color: #D91E41;
+            width: 20%;
+            height: 25vh;
+            margin-bottom: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3em;
+        
+        }
+        .indice:hover{
+            -webkit-box-shadow: 1px 0px 37px -12px rgba(217,30,65,1);
+            -moz-box-shadow: 1px 0px 37px -12px rgba(217,30,65,1);
+            box-shadow: 1px 0px 37px -12px rgba(217,30,65,1);
+            opacity: .8;
+        }
+        .primeiro, .segundo, .terceiro{
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 45%;
+            break-before: always;
+            opacity: .5;
+        }
+        .primeiro{
+            background-image: url('../imagens/haltere..png');
+        
+        }
+        .segundo{
+            background-image: url('../imagens/AC.png');
+           
+        }
+        .terceiro{
+            background-image: url('../imagens/pngwing.com\ \(1\).png');
+           
+        }
+        
+    
+    
+                /* segunda seção */
+    
+        .trabalho{
+        background-color: var(--colorTwo);
+        min-height: 90vh;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px
+    
+        }
+    
+        .textocompleto{
+                display: flex;
+                flex-direction: column;
+                width: 30%;
+                color: white;
+                gap: 40px;
+                position: relative;
+                left: -19%;
+                margin: auto;
+        }
+        .textocompleto h3{
+                color: var(--colorThree);
+        }
+                    
+    
+                   /* terceira seção */
+    
+        .diplomas{
+            height: 80vh;
+            background-color: var(--colorOne);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 70px;
+            margin: 0;
+        }
+        .certificadiploma{
+            display: flex;
+            flex-direction: row;
+            text-align: end;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            justify-content: space-evenly;
+            color: var(--colorFour);
+    
+        }
+       
+        .diplomas h2{
+            color: white;
+            margin-top: -7%;
+        }
+        .titulo-certif{
+            width: 50%;
+        }
+        #diploma{
+            color: var(--colorThree);
+            font-size: 1.2em;
+        }
+        .texto-certifi{
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            font-weight: bold;
+            gap: 20px;
+        }
+        .texto-certifi p{
+            color: white;
+        }
+        #certificacao{
+            color: var(--colorFive);
+            font-size: 1.2em;
+    
+        }
+        .diplomas img{
+            width: 15%;
+        }
+    
+    
+              /* ultima seção */
+        .contato{
+        height: 90vh;
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         align-items: center;
+         justify-content: space-around;
+         
+        }
+        .headline{
+            visibility: hidden;
+        }
+    
+       
+    }
+     
+                
+/*                          */
+
+
+@media (min-width: 1496px){
+    header{
+        border-bottom: 1px solid var(--colorFive);
+
+    }
+    nav{
+        display: flex;        ;
+        flex-direction: row;
+        gap: 10px;
+        padding: 10px;
+        margin-left: 12%;
+        font-size: 1.4em;
+
+        
+    }
+    .section-header{
+    background-color: var(--colorTwo);
+    height: 85vh;
+    width: 100%;
+    background-image: url('../imagens/2.png');
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-position-x: 85%;
+    background-position-y:100%;
+    overflow-y: none;
+    background-size: 27%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .header{
+        width: 30%;
+
+    }
+    .header-header{
+        width: 100%;
+    }
+    .header-header #btn-header{
+        width: 55%;
+    }
+
+    /*    primeira seção*/
+    .sobreMim{
+       background-color: var(--colorFour);
+       height: 100vh;
+    }
+  
+    .textAndPic{ 
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       font-size: .8em;
+      
+    }
+    .textAndPic img{
+        width: 30%;
+        opacity: .3;
+    }
+    .textMe{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5em;
+        width: 30%;
+        gap: 50px;
+        text-align: end;
+        color: white;
+        margin-left: -20%;
+
+    }
+    #textColor{
+        color: var(--colorFive);
+    }
+    
+    
+
+
+            /* segunda seção */
+.trabalho{
+    min-height: 165vh;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.trabalho h2{
+   margin: 0;
+   padding: 0;
+   position: relative;
+   top: 8%;
+   height: 15vh;
+
+    
+
+}
+ .article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+ }
+
+  article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 40vh;
+    gap: 80px;
+
+  }
+  article div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    width:20%;
+    height: 100%;
+    
+
+  }
+  .article img{
+    border: 5px solid var(--colorFour);
+    border-radius: 50%;
+  }
+
+
+  .article-text{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    color: white;
+    align-items: flex-start;
+    text-align: start;
+    width: 70%;
+    font-size: 1.2em;
+    
+
+  }
+                
+
+  .presentsIndice{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    gap: 80px;
+    height: 50vh;
+    
+}
+.indice{
+    background-color: var(--colorFive);
+    width: 20%;
+    height: 25vh;
+    margin-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3em;
+    border-radius: 4px;
+
+}
+.indice:hover{
+    -webkit-box-shadow: 1px 0px 37px -12px rgba(217,30,65,1);
+    -moz-box-shadow: 1px 0px 37px -12px rgba(217,30,65,1);
+    box-shadow: 1px 0px 37px -12px rgba(217,30,65,1);
+    opacity: .8;
+}
+.primeiro, .segundo, .terceiro{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 45%;
+    break-before: always;
+    opacity: .5;
+    
+}
+.primeiro{
+    background-image: url('../imagens/haltere..png');
+
+}
+.segundo{
+    background-image: url('../imagens/AC.png');
+   
+}
+.terceiro{
+    background-image: url('../imagens/pngwing.com\ \(1\).png');
+   
+}
+
+
+               /* terceira seção */
+
+    .diplomas{
+        height: 90vh;
+        background-color: var(--colorOne);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 70px;
+        margin: 0;
+    }
+    .certificadiploma{
+        display: flex;
+        flex-direction: row;
+        text-align: end;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        justify-content: space-around;
+        color: var(--colorFour);
+
+    }
+   
+    .diplomas h2{
+        color: white;
+        margin-top: -7%;
+        
+    }
+    .titulo-certif{
+        width: 50%;
+        
+    }
+  
+    .texto-certifi{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        font-weight: bold;
+        gap: 20px;
+        font-size: 1.2em;
+
+    }
+    .texto-certifi p{
+        color: white;
+    }
+    #certificacao{
+        color: var(--colorFive);
+
+    }
+    .diplomas img{
+        width: 17%;
+    }
+
+
+          /* ultima seção */
+    .contato{
+     height: 80vh;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+     justify-content: space-around;
+     background-image: url('../imagens/body.png');
+     background-repeat: no-repeat;
+     background-position: absolute;
+     background-position-x: left ;
+     background-position-x: 10%;
+     background-position-y:130%;
+     background-size: 45%;
+     padding-left: 14.5%;
+    }
+
+   
+    .dados{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: -15%;
+        margin-top: 17%;
+        padding: 0;
+        text-align: start;
+        width: 150vw;
+        gap: 0;
+    }
+    #profissao{
+        color: var(--colorOne);
+        margin: -1% 0 0 15%;
+        font-weight: bold;
+        font-size: 1.4em;
+    }
+    #numero{
+        margin-top: -2%;
+        margin-left: 3%;
+        padding: 7px;
+    }
+    #email{
+        margin-left: -1%;
+        margin-top: 5%;
+    }
+    form{
+       margin: 0;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       padding-right: 20%;
+       width: 100%;
+       margin-top: 10%;
+      
+    }
+    
+    input{ 
+        width: 55%;
+        padding: 10px;
+        border: 1px solid var(--colorOne);
+        outline: none;
+        border-radius: 4px;
+    }
+    
+    textarea{
+        width: 59%;
+        margin-top: 2%;
+        outline: none;
+        border: 1px solid var(--colorOne);
+        border-radius: 4px;
+    }   
+    #contatoForm{
+        margin-top: 2%;
+        width: 60%;
+        padding: 15px;
+        cursor: pointer;
+        background: linear-gradient(90deg, rgba(32,18,64,1) 37%, rgba(72,16,58,1) 59%, rgba(91,15,55,1) 71%, rgba(140,13,47,1) 99%, rgba(75,74,117,1) 100%);
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-weight: bolder;
+    }
+    #contatoForm:hover{
+        -webkit-box-shadow: 1px 0px 37px -12px rgba(217,30,65,1);
+        -moz-box-shadow: 1px 0px 37px -12px rgba(217,30,65,1);
+        box-shadow: 1px 0px 37px -12px rgba(217,30,65,1);
+    }
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--colorTwo);
+        padding: 20px;
+        cursor: pointer;
+        color: var(--colorOne);
+        border-top: 1px solid var(--colorThree);
+    }
+  
+    footer div{
+        display: flex;
+        gap: 0;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .headline{
+        visibility: hidden;
+    }
+   
+
+}
+
+
+
+
+
