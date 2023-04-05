@@ -770,6 +770,7 @@
     
 
 }
+
  .article{
     display: flex;
     flex-direction: column;
@@ -798,6 +799,9 @@
     height: 100%;
     
 
+  }
+  article h3{
+    color: var(--colorFive);
   }
   .article img{
     border: 5px solid var(--colorFour);
