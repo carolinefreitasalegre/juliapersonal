@@ -968,11 +968,11 @@
     }
     #numero{
         margin-top: -2%;
-        margin-left: 3%;
+        margin-left:1%;
         padding: 7px;
     }
     #email{
-        margin-left: -1%;
+        margin-left: 3%;
         margin-top: 5%;
     }
     form{

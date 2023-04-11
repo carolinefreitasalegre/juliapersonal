@@ -43,7 +43,7 @@
 
             <div class="header-header">            
                 <h3>com Julia Freitas</h3>
-               <a href=""></a><button id="btn-header" class="blink-1">SAIBA MAIS</button></a>
+               <a href="https://wa.me/5567996654527" target="_blank"></a><button id="btn-header" class="blink-1">SAIBA MAIS</button></a>
             </div>
         </div>
 
@@ -55,7 +55,7 @@
            <h2 class="titulo">SOBRE MIM</h2>
 
            <div class="textAndPic" >
-            <img src="imagens/ff.png" alt="julia freitas" class="headline">
+            <img src="imagens/juliafreitas.png" alt="julia freitas" class="headline">
             <div class="textMe">
               <h3 id="textColor"  class="headline">Estou constantemente aprendendo e me atualizando com as últimas tendências em fitness e nutrição. Trabalho com pessoas de todos os níveis de condicionamento físico, desde iniciantes até aqueles que já têm experiência com atividades físicas.
               </h3> 
@@ -149,28 +149,36 @@
                 <h2 id="nome" class="headline">Julia Freitas</h2>
                 <h2 id="profissao" class="headline"><strong>PERSONAL TRAINER</strong></h2>
 
-                <p id="email" class="headline">julia@gmail.com</p>
-                <p id="numero" class="headline">67 999 999 99 9 
-                    <a href=""><i class="fa-brands fa-whatsapp" style="color: #511f1f;"></i></a>
+                <p id="email" class="headline">jufalgre@gmail.com</p>
+                <p id="numero" class="headline">67 99665-4527 
+
+                    
+
+                    <a href="https://wa.me/5567996654527" target="_blank"><i class="fa-brands fa-whatsapp" style="color: #511f1f;"></i></a>
                 </p>
             </div>
             
-                <form class="box-form"  action="https://formspree.io/f/mjvzlego"     
-                method="POST" target="_blank" name="name" class="headline">
+                <form class="box-form headline" 
+                action="https://formsubmit.co/freitascaroline.92@gmail.com" method="POST">
+                
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/enviado.html">
                   
                     <label for="nome">Nome</label>
-                    <input type="text" id="nome">
+                    <input required type="text" id="nome" name="name">
 
                     <label for="Email">Email</label>
-                    <input type="text" id="Email">
+                    <input required type="text" id="Email" name="email">
                  
-                    <textarea name="pretencao" id="pretencao" cols="30" rows="10">Pretenções</textarea>
+                    <textarea name="message" required name="pretencao" id="pretencao" cols="30" rows="10" placeholder="Tipo de acompanhamento desejado..."></textarea>
                        
 
 
                     
 
-                  <button id="contatoForm" class="btn-contato blink-1" type="submit" onclick="enviar()">Enviar</button>
+                  <button id="contatoForm" class="btn-contato blink-1" type="submit">Enviar</button>
+
+                  
+
                 </form>
             
         </div>
